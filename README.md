@@ -35,3 +35,4 @@ Python 3.10+.
 | Transactional outbox | [`patterns/outbox.py`](patterns/outbox.py) | A database commit and a broker publish cannot both be atomic |
 | Structured JSON logging | [`patterns/json_logging.py`](patterns/json_logging.py) | Find every line of one request at 3am |
 | Cursor pagination | [`patterns/pagination.py`](patterns/pagination.py) | OFFSET gets slow and skips rows under concurrent inserts |
+| Webhook signature verification | [`patterns/webhook_signature.py`](patterns/webhook_signature.py) | Prove a webhook is authentic and not a replay |
