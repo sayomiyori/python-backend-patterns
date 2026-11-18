@@ -34,3 +34,4 @@ Python 3.10+.
 | Idempotency keys | [`patterns/idempotency.py`](patterns/idempotency.py) | Duplicate webhook and payment deliveries cause one side effect |
 | Transactional outbox | [`patterns/outbox.py`](patterns/outbox.py) | A database commit and a broker publish cannot both be atomic |
 | Structured JSON logging | [`patterns/json_logging.py`](patterns/json_logging.py) | Find every line of one request at 3am |
+| Cursor pagination | [`patterns/pagination.py`](patterns/pagination.py) | OFFSET gets slow and skips rows under concurrent inserts |
