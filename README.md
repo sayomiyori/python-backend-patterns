@@ -38,3 +38,4 @@ Python 3.10+.
 | Webhook signature verification | [`patterns/webhook_signature.py`](patterns/webhook_signature.py) | Prove a webhook is authentic and not a replay |
 | TTL + LRU cache | [`patterns/ttl_cache.py`](patterns/ttl_cache.py) | In-process caching that expires and cannot leak memory |
 | Health check registry | [`patterns/health.py`](patterns/health.py) | Return 503 for a dead database, stay up when an optional dependency is down |
+| Bulkhead | [`patterns/bulkhead.py`](patterns/bulkhead.py) | One slow dependency starves every other caller |
