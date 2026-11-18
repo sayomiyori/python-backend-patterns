@@ -29,3 +29,4 @@ Python 3.10+.
 | Pattern | Module | What it solves |
 | ------- | ------ | -------------- |
 | Retry with backoff | [`patterns/retry.py`](patterns/retry.py) | Flaky upstream calls without retry storms |
+| Circuit breaker | [`patterns/circuit_breaker.py`](patterns/circuit_breaker.py) | Stop hammering a dependency that is already down |
