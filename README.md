@@ -30,3 +30,4 @@ Python 3.10+.
 | ------- | ------ | -------------- |
 | Retry with backoff | [`patterns/retry.py`](patterns/retry.py) | Flaky upstream calls without retry storms |
 | Circuit breaker | [`patterns/circuit_breaker.py`](patterns/circuit_breaker.py) | Stop hammering a dependency that is already down |
+| Token bucket rate limiter | [`patterns/rate_limit.py`](patterns/rate_limit.py) | Bursts allowed, sustained rate capped |
