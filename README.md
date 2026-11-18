@@ -40,3 +40,4 @@ Python 3.10+.
 | Health check registry | [`patterns/health.py`](patterns/health.py) | Return 503 for a dead database, stay up when an optional dependency is down |
 | Bulkhead | [`patterns/bulkhead.py`](patterns/bulkhead.py) | One slow dependency starves every other caller |
 | Typed environment config | [`patterns/env_config.py`](patterns/env_config.py) | Crash at startup, not an hour later on the first request |
+| Secret redaction | [`patterns/redaction.py`](patterns/redaction.py) | Tokens and passwords leaking into logs and error reports |
