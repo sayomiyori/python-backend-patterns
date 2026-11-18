@@ -28,3 +28,4 @@ Python 3.10+.
 
 | Pattern | Module | What it solves |
 | ------- | ------ | -------------- |
+| Retry with backoff | [`patterns/retry.py`](patterns/retry.py) | Flaky upstream calls without retry storms |
