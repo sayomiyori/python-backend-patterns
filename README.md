@@ -41,3 +41,4 @@ Python 3.10+.
 | Bulkhead | [`patterns/bulkhead.py`](patterns/bulkhead.py) | One slow dependency starves every other caller |
 | Typed environment config | [`patterns/env_config.py`](patterns/env_config.py) | Crash at startup, not an hour later on the first request |
 | Secret redaction | [`patterns/redaction.py`](patterns/redaction.py) | Tokens and passwords leaking into logs and error reports |
+| Bounded gather | [`patterns/bounded_gather.py`](patterns/bounded_gather.py) | Fan out to a dependency without opening a thousand sockets |
