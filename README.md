@@ -1,0 +1,30 @@
+# python-backend-patterns
+
+Dependency-free building blocks for Python backends: retries, circuit breakers,
+rate limits, idempotency, transactional outbox, structured logging and friends.
+
+Every pattern is a single module under `patterns/` with a focused `unittest`
+suite. No framework, no third-party packages, no ceremony — copy the module you
+need, or read it as a reference implementation.
+
+## Design rules
+
+- **Standard library only.** Nothing to install, nothing to pin.
+- **Time is injectable.** Every time-based module takes a `clock` callable so
+  tests are deterministic instead of `sleep`-based.
+- **Thread-safe by default.** Anything with mutable state guards it with a lock.
+- **Small surface.** One class or one function per module, documented in the
+  docstring, with the trade-off spelled out.
+
+## Running the tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+Python 3.10+.
+
+## Patterns
+
+| Pattern | Module | What it solves |
+| ------- | ------ | -------------- |
