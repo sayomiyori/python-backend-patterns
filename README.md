@@ -36,3 +36,4 @@ Python 3.10+.
 | Structured JSON logging | [`patterns/json_logging.py`](patterns/json_logging.py) | Find every line of one request at 3am |
 | Cursor pagination | [`patterns/pagination.py`](patterns/pagination.py) | OFFSET gets slow and skips rows under concurrent inserts |
 | Webhook signature verification | [`patterns/webhook_signature.py`](patterns/webhook_signature.py) | Prove a webhook is authentic and not a replay |
+| TTL + LRU cache | [`patterns/ttl_cache.py`](patterns/ttl_cache.py) | In-process caching that expires and cannot leak memory |
